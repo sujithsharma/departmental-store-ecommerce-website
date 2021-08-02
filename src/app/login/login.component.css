@@ -1,0 +1,67 @@
+
+body{
+    margin: 0;
+    background-image: url("../../assets/images/loginbgimage.jpg");
+}
+form{
+    /* border: 2px solid black; */
+    width: 25%;
+    margin-left: 38%;
+    margin-top: 7%;
+    height: 40%;
+    color: white;
+    font-family: 'Crimson Text', serif;
+}
+body{
+    top: 0;
+    bottom: 0;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+    font-family: 'Crimson Text', serif;
+}
+/* button{
+    margin-left: 36%;
+    
+    font-family: 'Crimson Text', serif;
+    /* background-color: #f39f86;
+    background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%); */
+    /* height: 25%; */
+    /* background-color: #abe9cd; */
+/* background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%); */
+
+    /* width: 30%; */
+/* } */
+input:focus {
+    border: 2px solid #555;
+  }
+table{
+        width: 100%;
+}
+.fill{
+    
+    
+    width: 98%;
+    height: 2rem;
+    /* background-color: #f39f86;
+background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%); */
+/* background-color: #abe9cd;
+background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%); */
+color: white;
+}
+
+a{
+    text-decoration: none;
+}
+button{
+    background: #4f3bff;
+    padding: 8px 30px;
+    border-radius: 30px;
+    transition: background 0.5s;
+    margin-left: 40%;
+}
+button:hover{
+    background: #563434;
+}

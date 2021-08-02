@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body><br><h1 style="color: white; margin-top: 2%;" >Subscribe to get latest details</h1>
+    <form method="POST">
+        
+        <table  cellpadding="2.5px" cellspacing="2.5">
+            <tr>
+                <td><h1 style="color: white;">Create Account</h1></td>
+            </tr>
+            <tr>
+                <td class="fontsize"><label for="name">Your Name </label></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="name" class="fill" placeholder="Enter Your Name" required> </td>
+            </tr>
+            <br>
+            <tr>
+                <td class="fontsize"><label for="phno">Mobile Number</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="phno" placeholder="Enter Your Mobile Number" class="fill" required> </td>
+            </tr>
+            <br>
+            <tr>
+                <td class="fontsize"><label for="mail">Email</label> </td>
+            </tr>
+            <tr>
+                <td><input type="mailid" id="mail" placeholder="Enter Your Email Address " class="fill" required> </td>
+            </tr>
+            <br>
+            <tr>
+                <td class="fontsize"><label for="password">Password</label></td>
+            </tr>
+            <tr>
+                <td><input type="password" id="password" placeholder="Enter Strong Password" class="fill" required></td>
+            </tr>
+            <tr>
+                <td style="color: white;">Note:Password must be atleast six characters</td>
+            </tr>
+            <br>
+            <tr>
+                <td class="fontsize"><label for="cpassword">Confirm Password</label></td>
+            </tr>            
+            <tr>
+		    	<td><input type="password" id="cpassword" class="fill" placeholder="Confirm Password"></td>
+		    
+		    </tr>
+            <br>
+            <tr>
+                <td class="fontsize"><label for="Address">Address</label></td>
+            </tr>
+		    <tr>
+		    	<td><input type="text" id="Address" class="fill"  placeholder="Address"></td>
+		    </tr>
+            <br>
+            <tr>
+                <td class="fontsize"><label for="city">City</label></td>
+            </tr>
+		    <tr>
+		    	<td><input type="text" id="city" class="fill"  placeholder="City"></td>
+		    </tr>
+            <br>
+            <tr>
+                <td class="fontsize"><label for="country">Country</label></td>
+            </tr>
+		    <tr>
+		    	<td><input type="text" id="country" class="fill"  placeholder="Country"></td>
+		    </tr>
+            <br>
+
+
+            <tr>
+                <td style="text-align: center; color: white;">We will send you a text to verify your phone.
+                    Message and Data rates may apply.</td>
+            </tr>           
+        </table><br>
+        <button>Sign UP</button>
+        <br><br>
+        <h4 style="color: white"> Already have an account? <a style="color: darkblue;" routerLink="/login">Login </a></h4>
+    </form>
+    <br>
+    <br>
+
+</body>
+</html>
